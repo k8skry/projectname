@@ -1,0 +1,74 @@
+/* Подключение шрифтов */
+@import "fonts.css";
+/* Подключение основных стилей */
+@import "base.css";
+/* Подключение стилей относящихся к header */
+@import "header.css";
+/* Подключение стилей относящихся к footer */
+@import "footer.css";
+/* Подключение стилей относящихся к main */
+@import "main.css";
+
+
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c6deff;
+}
+
+.auth-buttons button {
+    background-color: #5c62b8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.auth-buttons button:hover {
+    background-color: #5c62b8d0;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.modal-close {
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #4cae4c;
+}

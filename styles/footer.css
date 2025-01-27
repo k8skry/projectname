@@ -1,0 +1,25 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.map {
+    width: 60%;
+    background-color: #e4e4e4;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-info a:hover {
+    color: #007BFF;
+}
